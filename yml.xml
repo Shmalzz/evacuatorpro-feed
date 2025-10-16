@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<yml_catalog date="2025-10-16 00:00">
+<yml_catalog date="2025-10-17 00:00">
   <shop>
     <name>EvacuatorPro</name>
-    <company>EvacuatorPro — эвакуатор в Минске и по Беларуси</company>
+    <company>EvacuatorPro &mdash; эвакуатор в Минске и по Беларуси</company>
     <url>https://evacuatorpro.by/</url>
     <currencies>
       <currency id="BYN" rate="1"/>
     </currencies>
-
     <categories>
       <category id="1">Услуги эвакуатора</category>
       <category id="2" parentId="1">Легковой эвакуатор</category>
@@ -17,29 +16,27 @@
       <category id="6" parentId="1">Эвакуатор за МКАД</category>
     </categories>
 
-    <!-- Легковой эвакуатор -->
     <offer id="101" available="true">
       <url>https://evacuatorpro.by/legkovoy-evakuator</url>
       <price>100</price>
       <currencyId>BYN</currencyId>
       <categoryId>2</categoryId>
       <picture>https://evacuatorpro.by/images/legkovoy.jpg</picture>
-      <name>Эвакуатор легковой — Минск</name>
-      <description>Круглосуточная эвакуация легковых автомобилей по Минску и области. Подача от 15 минут. Стоимость от 100 BYN.</description>
+      <name>Эвакуатор легковой в Минске - срочная подача, от 100 BYN</name>
+      <description>Круглосуточная эвакуация легковых автомобилей в Минске и области. Подача от 15 минут, цена от 100 BYN. Быстро, безопасно, с документами для страховой.</description>
       <delivery>true</delivery>
       <delivery-options>
         <option cost="100" days="0" order-before="24"/>
       </delivery-options>
     </offer>
 
-    <!-- Грузовой эвакуатор -->
     <offer id="102" available="true">
       <url>https://evacuatorpro.by/gruzovoy-evakuator</url>
       <price>110</price>
       <currencyId>BYN</currencyId>
       <categoryId>3</categoryId>
       <picture>https://evacuatorpro.by/images/gruzovoy.jpg</picture>
-      <name>Эвакуатор грузовой — Минск</name>
+      <name>Эвакуатор грузовой в Минске - от 110 BYN</name>
       <description>Эвакуация грузовых автомобилей, микроавтобусов и спецтехники до 10 тонн. Цена от 110 BYN, быстрая подача по Минску и РБ.</description>
       <delivery>true</delivery>
       <delivery-options>
@@ -47,38 +44,36 @@
       </delivery-options>
     </offer>
 
-    <!-- Эвакуация после ДТП -->
     <offer id="103" available="true">
       <url>https://evacuatorpro.by/evakuaciya-posle-dtp</url>
       <price>100</price>
       <currencyId>BYN</currencyId>
       <categoryId>5</categoryId>
       <picture>https://evacuatorpro.by/images/dtp.jpg</picture>
-      <name>Эвакуация авто после ДТП</name>
-      <description>Безопасная эвакуация автомобилей после ДТП. Выдаём документы для страховой и бухгалтерии. Стоимость от 100 BYN.</description>
+      <name>Эвакуация авто после ДТП - от 100 BYN</name>
+      <description>Безопасная эвакуация автомобилей после ДТП. Выдаём документы для страховой и бухгалтерии. Срочно и аккуратно.</description>
     </offer>
 
-    <!-- Помощь на дороге -->
     <offer id="104" available="true">
       <url>https://evacuatorpro.by/pomosh-na-doroge</url>
       <price>40</price>
       <currencyId>BYN</currencyId>
       <categoryId>4</categoryId>
       <picture>https://evacuatorpro.by/images/help.jpg</picture>
-      <name>Помощь на дороге</name>
-      <description>Запуск двигателя, подвоз топлива, замена колеса, открытие дверей. Срочная помощь на дороге от 40 BYN.</description>
+      <name>Помощь на дороге в Минске - от 40 BYN</name>
+      <description>Подвоз топлива, запуск двигателя, замена колеса, открытие дверей. Срочная помощь на дороге, выезд за 15 минут.</description>
     </offer>
 
-    <!-- Эвакуатор за МКАД -->
     <offer id="105" available="true">
       <url>https://evacuatorpro.by/evakuator-za-mkad</url>
       <price>1.5</price>
       <currencyId>BYN</currencyId>
       <categoryId>6</categoryId>
       <picture>https://evacuatorpro.by/images/za-mkad.jpg</picture>
-      <name>Эвакуатор за МКАД — по Беларуси</name>
-      <description>Эвакуация автомобилей по всей Беларуси. Стоимость от 1.5 BYN за километр. Подача из Минска, возможен расчёт по безналу.</description>
+      <name>Эвакуатор за МКАД - по Беларуси, от 1.5 BYN/км</name>
+      <description>Эвакуация автомобилей по всей Беларуси. Стоимость от 1.5 BYN за километр. Подача из Минска, круглосуточно, документы для страховой.</description>
     </offer>
 
   </shop>
 </yml_catalog>
+
