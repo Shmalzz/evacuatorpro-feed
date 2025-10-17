@@ -4,94 +4,73 @@
              date="2025-10-17 00:00">
   <shop>
     <name>EvacuatorPro</name>
-    <company>EvacuatorPro - эвакуатор в Минске и по Беларуси</company>
+    <company>ИП Малитиков Никита — EvacuatorPro</company>
     <url>https://evacuatorpro.by/</url>
     <currencies>
       <currency id="BYN" rate="1"/>
     </currencies>
+
     <categories>
       <category id="1">Услуги эвакуатора</category>
       <category id="2" parentId="1">Легковой эвакуатор</category>
       <category id="3" parentId="1">Грузовой эвакуатор</category>
-      <category id="4" parentId="1">Помощь на дороге</category>
-      <category id="5" parentId="1">Эвакуация после ДТП</category>
-      <category id="6" parentId="1">Эвакуатор за МКАД</category>
+      <category id="4" parentId="1">Эвакуация после ДТП</category>
     </categories>
 
     <!-- Легковой эвакуатор -->
     <offer id="101" available="true">
-      <url>https://evacuatorpro.by/legkovoy-evakuator</url>
+      <url>https://evacuatorpro.by/#USLUGI</url>
       <price>100</price>
       <currencyId>BYN</currencyId>
       <categoryId>2</categoryId>
-      <picture>https://evacuatorpro.by/images/legkovoy.jpg</picture>
-      <name>Эвакуатор легковой в Минске - срочная подача, от 100 BYN</name>
-      <description>Круглосуточная эвакуация легковых автомобилей в Минске и области. Подача от 15 минут, цена от 100 BYN. Быстро, безопасно, с документами для страховой.</description>
-      <delivery>true</delivery>
-      <delivery-options>
-        <option cost="100" days="0" order-before="24" region="Минск"/>
-      </delivery-options>
+      <picture>https://optim.tildacdn.biz/tild3063-6266-4536-a533-616162366166/-/resize/362x/-/format/webp/file59255d03e046d-re.webp</picture>
+      <name>Эвакуатор легковой в Минске — EvacuatorPro</name>
+      <vendor>EvacuatorPro</vendor>
+      <description>Круглосуточная эвакуация легковых автомобилей в Минске и области. Подача от 15 минут. Стоимость от 100 BYN.</description>
+      <param name="Рейтинг">4.9</param>
+      <param name="Число отзывов">86</param>
+      <param name="Регион">Минск и Минская область</param>
+      <param name="Конверсия">0.45</param>
+      <param name="Годы опыта">7</param>
+      <set-ids>EVP-101</set-ids>
     </offer>
 
     <!-- Грузовой эвакуатор -->
     <offer id="102" available="true">
-      <url>https://evacuatorpro.by/gruzovoy-evakuator</url>
+      <url>https://evacuatorpro.by/#USLUGI</url>
       <price>110</price>
       <currencyId>BYN</currencyId>
       <categoryId>3</categoryId>
-      <picture>https://evacuatorpro.by/images/gruzovoy.jpg</picture>
-      <name>Эвакуатор грузовой в Минске - от 110 BYN</name>
-      <description>Эвакуация грузовых автомобилей, микроавтобусов и спецтехники до 10 тонн. Цена от 110 BYN, быстрая подача по Минску и Беларуси.</description>
-      <delivery>true</delivery>
-      <delivery-options>
-        <option cost="110" days="0" order-before="24" region="Минск"/>
-      </delivery-options>
+      <picture>https://optim.tildacdn.biz/tild3464-3565-4637-a566-336237343739/-/resize/318x/-/format/webp/GAZEL-removebg-previ.webp</picture>
+      <name>Эвакуатор грузовой в Минске — EvacuatorPro</name>
+      <vendor>EvacuatorPro</vendor>
+      <description>Эвакуация грузовых автомобилей, микроавтобусов и спецтехники до 10 тонн. Быстрая подача по Минску и РБ. Цена от 110 BYN.</description>
+      <param name="Рейтинг">4.8</param>
+      <param name="Число отзывов">42</param>
+      <param name="Регион">Минск, Беларусь</param>
+      <param name="Конверсия">0.38</param>
+      <param name="Годы опыта">7</param>
+      <set-ids>EVP-102</set-ids>
     </offer>
 
     <!-- Эвакуация после ДТП -->
     <offer id="103" available="true">
-      <url>https://evacuatorpro.by/evakuaciya-posle-dtp</url>
+      <url>https://evacuatorpro.by/#USLUGI</url>
       <price>100</price>
       <currencyId>BYN</currencyId>
-      <categoryId>5</categoryId>
-      <picture>https://evacuatorpro.by/images/dtp.jpg</picture>
-      <name>Эвакуация авто после ДТП - от 100 BYN</name>
-      <description>Безопасная эвакуация автомобилей после ДТП. Выдаём документы для страховой и бухгалтерии. Срочно и аккуратно.</description>
-      <delivery>true</delivery>
-      <delivery-options>
-        <option cost="100" days="0" order-before="24" region="Минск"/>
-      </delivery-options>
-    </offer>
-
-    <!-- Помощь на дороге -->
-    <offer id="104" available="true">
-      <url>https://evacuatorpro.by/pomosh-na-doroge</url>
-      <price>40</price>
-      <currencyId>BYN</currencyId>
       <categoryId>4</categoryId>
-      <picture>https://evacuatorpro.by/images/help.jpg</picture>
-      <name>Помощь на дороге в Минске - от 40 BYN</name>
-      <description>Подвоз топлива, запуск двигателя, замена колеса, открытие дверей. Срочная помощь на дороге, выезд за 15 минут.</description>
-      <delivery>true</delivery>
-      <delivery-options>
-        <option cost="40" days="0" order-before="24" region="Минск"/>
-      </delivery-options>
-    </offer>
-
-    <!-- Эвакуатор за МКАД -->
-    <offer id="105" available="true">
-      <url>https://evacuatorpro.by/evakuator-za-mkad</url>
-      <price>1.5</price>
-      <currencyId>BYN</currencyId>
-      <categoryId>6</categoryId>
-      <picture>https://evacuatorpro.by/images/za-mkad.jpg</picture>
-      <name>Эвакуатор за МКАД - по Беларуси, от 1.5 BYN/км</name>
-      <description>Эвакуация автомобилей по всей Беларуси. Стоимость от 1.5 BYN за километр. Подача из Минска, круглосуточно, документы для страховой.</description>
-      <delivery>true</delivery>
-      <delivery-options>
-        <option cost="1.5" days="0" order-before="24" region="Минск"/>
-      </delivery-options>
+      <picture>https://static.tildacdn.biz/tild3131-3766-4436-a166-326339636565/MERCEDESGLAVNY-ezgif.webp</picture>
+      <name>Эвакуация авто после ДТП в Минске — EvacuatorPro</name>
+      <vendor>EvacuatorPro</vendor>
+      <description>Безопасная эвакуация автомобилей после ДТП. Выдаём документы для страховой и бухгалтерии. Стоимость от 100 BYN.</description>
+      <param name="Рейтинг">5.0</param>
+      <param name="Число отзывов">57</param>
+      <param name="Регион">Минск, Беларусь</param>
+      <param name="Конверсия">0.51</param>
+      <param name="Годы опыта">7</param>
+      <set-ids>EVP-103</set-ids>
     </offer>
 
   </shop>
 </yml_catalog>
+
